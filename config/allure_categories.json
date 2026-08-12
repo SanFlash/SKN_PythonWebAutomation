@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Assertion failures",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Timeouts",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*(Timeout|timeout).*"
+  },
+  {
+    "name": "Locator not found",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*(strict mode violation|waiting for locator|not found).*"
+  },
+  {
+    "name": "Test defects (broken)",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Product defects (failed)",
+    "matchedStatuses": ["failed"]
+  }
+]

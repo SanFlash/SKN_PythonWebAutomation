@@ -1,0 +1,16 @@
+[
+  {
+    "guest_name": "Satyendra Kumar",
+    "guest_email": "qa.satyendra@example.com",
+    "check_in": "2026-05-01",
+    "check_out": "2026-05-05",
+    "room_type_index": 1
+  },
+  {
+    "guest_name": "Anita Sharma",
+    "guest_email": "anita.sharma@example.com",
+    "check_in": "2026-06-10",
+    "check_out": "2026-06-14",
+    "room_type_index": 2
+  }
+]

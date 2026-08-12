@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Satyendra Kumar",
+    "email": "qa.satyendra@example.com",
+    "message": "Hello, this is an automated test message.\nLooking forward to your reply."
+  },
+  {
+    "name": "Anita Sharma",
+    "email": "anita.sharma@example.com",
+    "message": "Hi team, could you share your availability for a group booking?"
+  }
+]

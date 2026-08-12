@@ -1,0 +1,24 @@
+# Darshan Hotel — Playwright + Pytest + Allure Automation Framework
+# Author: Satyendra Kumar Namdeo
+# This authorship notice is part of the project source and must be
+# preserved in copies and forks (see NOTICE.md and LICENSE).
+
+# Environment definitions. One block per environment. Select with the
+# APP_ENV env var (defaults to "dev").
+# Any value here can still be overridden by an actual environment variable
+# of the same name (see config/settings.py) — env vars always win.
+
+dev:
+  base_url: "https://sanflash.github.io/DarshanHotel.com/"
+  timeout: 15000
+  navigation_timeout: 30000
+
+staging:
+  base_url: "https://sanflash.github.io/DarshanHotel.com/"
+  timeout: 20000
+  navigation_timeout: 30000
+
+prod:
+  base_url: "https://sanflash.github.io/DarshanHotel.com/"
+  timeout: 15000
+  navigation_timeout: 30000

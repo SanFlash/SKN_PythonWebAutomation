@@ -1,0 +1,19 @@
+# Darshan Hotel — Playwright + Pytest + Allure Automation Framework
+# Author: Satyendra Kumar Namdeo
+# This authorship notice is part of the project source and must be
+# preserved in copies and forks (see NOTICE.md and LICENSE).
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+reports/
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+logs/
+.pytest_cache/
+*.egg-info/
